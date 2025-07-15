@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { createEventDispatcher } from 'svelte';
-	import Square from './Square.svelte';
+	import Square from '$lib/components/Square.svelte';
 
 	export let grid: string[];
 	export let found: string[];

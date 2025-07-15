@@ -1,8 +1,8 @@
 <script lang="ts">
 	import { confetti } from '@neoconfetti/svelte';
-	import Game from './Game.svelte';
-	import Modal from './Modal.svelte';
-	import { levels } from './levels';
+	import Game from '$lib/components/Game.svelte';
+	import Modal from '$lib/components/Modal.svelte';
+	import { levels } from '$lib/levels';
 	import '../styles.css';
 
 	let state: 'waiting' | 'playing' | 'paused' | 'won' | 'lost' = 'waiting';

@@ -1,10 +1,10 @@
 <script lang="ts">
-	import Countdown from './Countdown.svelte';
-	import Grid from './Grid.svelte';
-	import Found from './Found.svelte';
-	import { shuffle } from './utils.js';
+	import Countdown from '$lib/components/Countdown.svelte';
+	import Grid from '$lib/components/Grid.svelte';
+	import Found from '$lib/components/Found.svelte';
+	import { shuffle } from '$lib/utils.js';
 	import { createEventDispatcher } from 'svelte';
-	import type { Level } from './levels';
+	import type { Level } from '$lib/levels';
 
 	const dispatch = createEventDispatcher();
 

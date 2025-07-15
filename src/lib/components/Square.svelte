@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { send } from './transitions';
-	import { get_twemoji_url } from './utils';
+	import { send } from '$lib/transitions';
+	import { get_twemoji_url } from '$lib/utils';
 
 	export let value: string;
 	export let selected: boolean;

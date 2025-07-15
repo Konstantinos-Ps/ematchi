@@ -1,8 +1,8 @@
 <script lang="ts">
 	import { flip } from 'svelte/animate';
-	import { receive } from './transitions';
+	import { receive } from '$lib/transitions';
 	import { fade } from 'svelte/transition';
-	import { get_twemoji_url } from './utils';
+	import { get_twemoji_url } from '$lib/utils';
 
 	export let found: string[];
 </script>
